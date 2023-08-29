@@ -25,7 +25,8 @@
                 android:id="@+id/activity_image"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/activity_image"
+                android:scaleType="centerCrop"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="57dp"
                 tools:srcCompat="@tools:sample/avatars" />
