@@ -2,4 +2,8 @@
     <string name="app_name">RecyclerView</string>
     <string name="jog">jogging</string>
     <string name="date">Today</string>
+    <string name="description">This ist the day, the day of the alord.Am a proud Android Application Developer.Dear Lord i pray for the wisdom so that can understand this so well. amiina</string>
+    <string name="complete">Mark as Complete</string>
+    <string name="direction">Type in User Name</string>
+    <string name="submit">BUTTON</string>
 </resources>
