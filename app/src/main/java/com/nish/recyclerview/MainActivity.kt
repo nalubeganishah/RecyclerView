@@ -1,7 +1,9 @@
 package com.nish.recyclerview
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.nish.recyclerview.data.ActivityAdapter
@@ -29,7 +31,11 @@ class MainActivity : AppCompatActivity() {
         //attach Recyclers view to layout manager
         recyclerView .layoutManager = LinearLayoutManager(this)
 
-
+        val addButton = findViewById<Button>(R.id.addButton)
+        addButton.setOnClickListener{
+            val intent1= Intent(this, InputActivity::class.java  )
+            startActivity(intent1 )
+        }
 
     }
 }

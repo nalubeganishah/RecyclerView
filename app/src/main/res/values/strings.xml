@@ -6,4 +6,9 @@
     <string name="complete">Mark as Complete</string>
     <string name="direction">Type in User Name</string>
     <string name="submit">BUTTON</string>
+    <string name="add_button">+</string>
+    <string name="activity_name">Name of Activity</string>
+    <string name="activity_description">Description</string>
+    <string name="upload_name">Upload Image</string>
+    <string name="save_name">SAVE</string>
 </resources>
