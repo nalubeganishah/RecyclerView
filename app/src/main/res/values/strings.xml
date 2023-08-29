@@ -11,4 +11,5 @@
     <string name="activity_description">Description</string>
     <string name="upload_name">Upload Image</string>
     <string name="save_name">SAVE</string>
+    <string name="activity_image">Activity Image</string>
 </resources>
